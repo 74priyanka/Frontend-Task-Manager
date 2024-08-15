@@ -24,6 +24,7 @@ const useLoginForm = ({ setIsLoggedIn }) => {
     makeLoginApiCall(formData, setIsLoggedIn);
 
     setFormData({ email: "", password: "", remember: false });
+    window.location.reload();
   };
 
   return {

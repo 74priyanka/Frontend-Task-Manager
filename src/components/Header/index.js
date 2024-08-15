@@ -17,7 +17,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.profileWrapper} onClick={openProfile}>
         <img src={profilePic} alt="Profile" className={styles.profilePic} />
-        <h3 className={styles.userName}>{userData.name}</h3>
+        <h3 className={styles.userName}>{userData?.name}</h3>
       </div>
       <h2 className={styles.title}>Task Manager</h2>
     </header>
