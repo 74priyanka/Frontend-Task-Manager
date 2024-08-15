@@ -1,0 +1,30 @@
+.container {
+  @apply bg-[#f7efe5] text-[#381953] min-h-screen flex flex-col items-center justify-center;
+}
+
+.taskName {
+  @apply text-white mb-2 text-3xl border-[#8758ff] rounded p-2.5 mt-4 mb-8 w-[300px] text-black;
+}
+.taskName::placeholder {
+  @apply text-xl;
+}
+
+.taskItem {
+  @apply flex justify-around;
+}
+
+/* Custom TodoWrapper styling */
+.todoWrapper {
+  @apply bg-[#674188] text-[#f7efe5] mt-20 p-8 rounded-md w-auto;
+}
+
+.buttonContainer {
+  @apply flex justify-center gap-40 items-center mt-4;
+}
+.deleteButton {
+  @apply bg-[#921A40] text-[#ffffff] border rounded px-4 py-2 w-[100px] text-xl;
+}
+
+.saveButton {
+  @apply bg-[#96E9C6] text-[#000000] border rounded px-4 py-2 w-[100px] text-xl;
+}

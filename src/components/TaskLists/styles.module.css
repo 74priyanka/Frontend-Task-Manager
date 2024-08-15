@@ -1,0 +1,11 @@
+.taskList {
+  @apply flex flex-col w-full pl-4;
+}
+
+.taskListHeader {
+  @apply text-[28px] font-semibold mb-4;
+}
+
+.taskCardsSection {
+  @apply flex flex-row flex flex-wrap pb-[90px];
+}

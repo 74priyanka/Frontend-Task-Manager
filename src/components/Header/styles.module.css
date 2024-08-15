@@ -1,0 +1,19 @@
+/* Header styling */
+.header {
+  @apply flex  justify-between items-center  border-[#674188] p-4;
+}
+
+.title {
+  @apply text-[32px] font-bold text-right;
+}
+.profileWrapper {
+  @apply flex items-center space-x-4;
+}
+
+.profilePic {
+  @apply w-16 h-16 rounded-full border-2 border-gray-300;
+}
+
+.userName {
+  @apply text-xl font-bold;
+}

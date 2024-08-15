@@ -1,0 +1,21 @@
+/* styles/tailwind-custom.css */
+
+/* Custom TodoForm styling */
+.todoFrom {
+  @apply w-full mb-4;
+}
+
+/* Custom todo-input styling */
+.todoInput {
+  @apply outline-none bg-none border border-[#8758ff] border rounded  p-2.5 mt-4 mb-8 w-[300px] text-black;
+}
+
+/* Custom todo-input placeholder styling */
+.todoInput::placeholder {
+  @apply text-[#808080];
+}
+
+/* Custom todo-btn styling */
+.todoBtn {
+  @apply bg-[#C8A1E0] text-white border-none border rounded py-2.5 px-4 cursor-pointer;
+}

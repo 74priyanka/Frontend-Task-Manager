@@ -1,0 +1,13 @@
+.profileInfo {
+  @apply flex flex-col items-start w-full sm:w-1/5 p-4;
+  @apply text-lg font-semibold;
+  @apply border-[#674188];
+}
+
+.profileInfo ul {
+  @apply list-disc pl-4;
+}
+
+.profileInfo li {
+  @apply text-[24px] md:text-lg mb-2;
+}

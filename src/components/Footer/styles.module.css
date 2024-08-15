@@ -1,0 +1,10 @@
+/* Footer styling */
+.buttonContainer {
+  @apply fixed bottom-0 left-0 right-0;
+  @apply border-[#674188] bg-[#f7efe5];
+  @apply flex justify-center py-2;
+}
+
+.addButton {
+  @apply bg-[#674188] text-[#f7efe5] rounded-full w-12 h-12 flex items-center justify-center text-xl;
+}

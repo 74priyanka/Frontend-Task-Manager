@@ -1,0 +1,6 @@
+.register {
+  @apply flex flex-row items-center justify-center gap-8;
+  /* > * {
+    @apply flex-grow-[1];
+  } */
+}

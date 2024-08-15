@@ -1,0 +1,22 @@
+.taskCard {
+  @apply flex flex-wrap  m-[28px];
+}
+
+.taskItem {
+  @apply bg-[#674188] text-[#f7efe5] p-4 rounded-lg shadow-md;
+  @apply w-full sm:w-[300px] sm:h-[200px];
+  @apply flex flex-col items-center justify-center;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.taskItem h1 {
+  @apply text-[20px] md:text-[24px] font-bold mb-4 pr-[32px];
+}
+
+.taskItem ol {
+  @apply list-decimal pl-4;
+}
+
+.taskItem li {
+  @apply text-[16px] md:text-[20px] mb-2;
+}

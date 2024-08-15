@@ -1,0 +1,19 @@
+/* src/components/ProfilePage.module.css */
+
+.profileContainer {
+  @apply p-4 bg-[#f7efe5] text-[#381953] min-h-screen  w-full;
+  margin-left: auto; /* Ensures it’s centered if the width is less than the viewport */
+  margin-right: auto; /* Ensures it’s centered if the width is less than the viewport */
+}
+
+.profileInfo {
+  @apply space-y-4 bg-[#C8A1E0] border rounded-md;
+}
+
+.profileTitle {
+  @apply text-2xl font-bold flex ml-4 p-4;
+}
+
+.editButton {
+  @apply bg-blue-500 text-white p-2 rounded mt-4;
+}
