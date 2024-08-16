@@ -1,0 +1,31 @@
+# Running the React Application Locally
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Git](https://git-scm.com/)
+
+## Getting Started
+
+1. **Clone the Repository**
+
+   If you haven't already cloned the repository, run the following command in your terminal:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+Replace your-username and your-repository with your GitHub username and repository name.
+
+2. Navigate to the Project Directory
+cd your-repository
+
+3. Install Dependencies
+npm install
+
+4. Start the Development Server
+npm start
+
+5.Signup / Login page shows up = you can signup , if you are a new user  and login if already registered
+6.HomeTasks page displays where all the tasks are listed , you can open up any task card and add more task items to it
+7. + icon is to create new task and items in it 
