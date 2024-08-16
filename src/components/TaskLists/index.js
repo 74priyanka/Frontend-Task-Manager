@@ -22,6 +22,7 @@ const TaskLists = () => {
               itemName={task.taskItems.map((item) => item.itemName).join(", ")}
               taskName={task.taskName}
               clickHandler={handleCreateTask}
+              className={styles.taskCard}
               // Add other props as needed
             />
           ))

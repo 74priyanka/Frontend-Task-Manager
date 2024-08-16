@@ -7,5 +7,9 @@
 }
 
 .taskCardsSection {
-  @apply flex flex-row flex flex-wrap pb-[90px];
+  @apply flex flex-row flex flex-wrap pb-[90px] cursor-pointer;
+}
+
+.taskCard {
+  @apply cursor-pointer;
 }

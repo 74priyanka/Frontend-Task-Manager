@@ -8,8 +8,8 @@ const makeLoginApiCall = async (data, setIsLoggedIn) => {
       password: data.password,
       email: data.email,
     };
-
-    console.log(payload);
+    debugger;
+    console.log("payload kkk", payload);
 
     const response = await fetchWithBaseURL("/auth/login", "POST", payload);
     console.log("response : ", response);

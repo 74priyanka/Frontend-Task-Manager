@@ -6,6 +6,8 @@ const Login = ({ setIsLoggedIn }) => {
     setIsLoggedIn,
   });
 
+  console.log(" form data", formData);
+
   return (
     <div className={styles.login}>
       <div className="w-full p-[64px]">

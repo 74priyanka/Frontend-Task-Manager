@@ -9,5 +9,5 @@
 }
 
 .profileInfo li {
-  @apply text-[24px] md:text-lg mb-2;
+  @apply text-[24px] md:text-lg mb-2 cursor-pointer;
 }

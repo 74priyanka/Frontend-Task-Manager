@@ -19,9 +19,9 @@ const useLoginForm = ({ setIsLoggedIn }) => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    makeLoginApiCall(formData, setIsLoggedIn);
+    await makeLoginApiCall(formData, setIsLoggedIn);
 
     setFormData({ email: "", password: "", remember: false });
     window.location.reload();
